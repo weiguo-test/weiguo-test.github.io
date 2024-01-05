@@ -7,7 +7,7 @@ description: >
 
 profile:
   align: right
-  image: bio.jpeg
+  image: prof_pic.jpg
   address: 
 
 news: true  # includes a list of news items
