@@ -8,17 +8,34 @@ I am a Postdoctoral Fellow with the [Department of Electronic and Computer Engin
 
 ## News
 
-- **[Sep. 2024]** Paper "WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks" submitted.
-- **[Sep. 2024]** Poster presentation at The IEEE Hong Kong 6G Wireless Summit (IEEE HK6GWS 2024).
+- **[Sep. 2024]** Paper "WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks" submitted. [arxiv](https://arxiv.org/abs/2409.07964)
+- **[Sep. 2024]** Poster presentation at [The IEEE Hong Kong 6G Wireless Summit (IEEE HK6GWS 2024)](https://hk6gws2024.ieee-hk6gws.org/).
 - **[Jul. 2024]** Oral presentation at IEEE MeditCom 2024 in Madrid, Spain.
-- **[Jun. 2024]** Paper "WirelessLLM: Empowering Large Language Models Towards Wireless Intelligence" accepted by Jounal of Communications and Information Networks.
-- **[May. 2024]** Paper "Model-driven Deep Learning for Distributed Detection in WSNs with Binary Quantization" accepted by IEEE MeditCom 2024.
+- **[Jun. 2024]** Paper "WirelessLLM: Empowering Large Language Models Towards Wireless Intelligence" accepted by Jounal of Communications and Information Networks. [Paper](https://ieeexplore.ieee.org/document/10582827)
+- **[May. 2024]** Paper "Model-driven Deep Learning for Distributed Detection in WSNs with Binary Quantization" accepted by IEEE MeditCom 2024. [Paper](https://ieeexplore.ieee.org/abstract/document/10621336)
 - **[Sep. 2023]** I joined the Department at ECE at HKUST as Postdoctoral Fellow.
-- **[Jul. 2023]** I passed my Ph.D. defense.
-- **[Jun. 2023]** Paper "Dynamic Clustering and Power Control for Two-Tier Wireless Federated Learning" accepted by IEEE Transaction on Wireless Communications (TWC).
-- **[Apr. 2022]** Paper "Joint Device Selection and Power Control for Wireless Federated Learning" accpeted by IEEE Journal on Selected Areas in Communications (JSAC).
+
 
 {% include_relative _includes/publications.md %}
-All publication list see [Google Scholar](https://scholar.google.com/citations?user=4dFwT-4AAAAJ)
 
-{% include_relative _includes/services.md %}
+## Academic Services
+
+- Journal Reviewers
+-- IEEE Transactions on Wireless Communications; 
+-- IEEE Transactions on Communications; 
+-- IEEE Wireless Communications Letters; 
+-- IEEE Systems Journal; 
+-- IEEE Transactions on Machine Learning in Communications and Networking; 
+-- IEEE Internet of Things Magazine; 
+-- IEEE Journal on Selected Areas in Information Theory; 
+-- China Communications; 
+-- Journal of Communications and Information Networks;
+-- ...
+
+- Conference Reviewers
+-- IEEE Global Communications Conference (Globecom), 2019-2024; 
+-- IEEE/CIC International Conference on Communications in China (ICCC), 2019-2024.
+-- IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2024.
+
+## Awards
+- Exemplary Reviewer of IEEE Wireless Communications Letters (2020)
