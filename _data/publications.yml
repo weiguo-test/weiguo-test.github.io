@@ -16,7 +16,7 @@ main:
     image: ./assets/img/HFL_TWC.png
 
   - title: "Joint Device Selection and Power Control for Two-Tier Wireless Federated Learning"
-    authors: <strong>Wei Guo</strong>, Ran Li, Chuan Huang, Xiaoqi Qin, Kaiming Shen, Wei Zhang
+    authors: <strong>Wei Guo</strong>, Ran Li, Chuan Huang*, Xiaoqi Qin, Kaiming Shen, Wei Zhang
     conference_short: JSAC
     conference: IEEE J. Sel. Areas Commun. (JSAC), vol. 40, no. 8, pp. 2395-2410, Aug. 2022.
     pdf: https://ieeexplore.ieee.org/abstract/document/9793704
@@ -28,3 +28,5 @@ main:
     conference: IEEE Internet Things J. (IoT-J), vol. 8, no. 3, pp. 1921-1933, Feb. 2021.
     pdf: https://ieeexplore.ieee.org/abstract/document/9166529
     image: ./assets/img/ee2waychannel.png
+
+All publication list see [Google Scholar](https://scholar.google.com/citations?user=4dFwT-4AAAAJ)
