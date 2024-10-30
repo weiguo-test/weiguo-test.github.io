@@ -1,20 +1,16 @@
 main:
 
-  - title: WirelessLLM{:} Empowering Large Language Models Towards Wireless Intelligence
+  - title: "WirelessLLM: Empowering Large Language Models Towards Wireless Intelligence"
     authors: Jiawei Shao, Jingwen Tong, Qiong Wu, <strong>Wei Guo</strong>, Zijian Li, Zehong Lin, Jun Zhang* (*Corresponding authors)
     conference_short: JCIN
-    conference: J. Commun. Inf. Netw. <strong>(JCIN)</strong>, vol. 9, pp. 99-112, Jun. 2024.
+    conference: J. Commun. Inf. Netw. (JCIN), vol. 9, pp. 99-112, Jun. 2024.
     pdf: https://ieeexplore.ieee.org/document/10582827
     image: ./assets/img/wirelessllm.png
     notes: Cover Article
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Dynamic Clustering and Power Control for Two-Tier Wireless Federated Learning"
+    authors: <strong>Wei Guo</strong>,Chuan Huang*, Xiaoqi Qin, Lian Yang, Wei Zhang
+    conference_short: TWC
+    conference: IEEE Trans. Wireless Commun. (TWC), vol. 23, no. 2, pp. 1356-1371, Feb. 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10168186
+    image: ./assets/img/HFL_TWC.png

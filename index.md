@@ -19,5 +19,6 @@ I am a Postdoctoral Fellow with the [Department of Electronic and Computer Engin
 - **[Apr. 2022]** Paper "Joint Device Selection and Power Control for Wireless Federated Learning" accpeted by IEEE Journal on Selected Areas in Communications (JSAC).
 
 {% include_relative _includes/publications.md %}
+All publication list see [Google Scholar](https://scholar.google.com/citations?user=4dFwT-4AAAAJ)
 
 {% include_relative _includes/services.md %}
