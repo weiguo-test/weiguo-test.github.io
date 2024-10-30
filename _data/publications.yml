@@ -1,6 +1,6 @@
 main:
 
-  - title: WirelessLLM Empowering Large Language Models Towards Wireless Intelligence
+  - title: WirelessLLM{:} Empowering Large Language Models Towards Wireless Intelligence
     authors: Jiawei Shao, Jingwen Tong, Qiong Wu, <strong>Wei Guo</strong>, Zijian Li, Zehong Lin, Jun Zhang* (*Corresponding authors)
     conference_short: JCIN
     conference: J. Commun. Inf. Netw. <strong>(JCIN)</strong>, vol. 9, pp. 99-112, Jun. 2024.
