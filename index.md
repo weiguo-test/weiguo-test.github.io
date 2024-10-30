@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a Postdoctoral Fellow with the Department of Electronic and Computer Engineering, The Hong Kong University of Science and Engineering (HKUST), hosted by Prof. Khaled B. Letaief and Prof. Jun Zhang. I received the Ph.D. degree in computer and information engineering from The Chinese University of Hong Kong, Shenzhen (CUHK-SZ), China, in 2023, under the supervision of Prof. Chuan Huang and the B.Eng. in electronic engineering from the Univeristy of Electronic Science and Techonology of China (UESTC), Chengdu, China, in 2017.
 
 ## Research Interests
 
