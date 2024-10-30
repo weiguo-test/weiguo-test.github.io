@@ -8,12 +8,12 @@ I am a Postdoctoral Fellow with the [Department of Electronic and Computer Engin
 
 ## News
 
-- **[Sep. 2024]** Paper "WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks" submitted. [arxiv](https://arxiv.org/abs/2409.07964)
-- **[Sep. 2024]** Poster presentation at [The IEEE Hong Kong 6G Wireless Summit (IEEE HK6GWS 2024)](https://hk6gws2024.ieee-hk6gws.org/).
-- **[Jul. 2024]** Oral presentation at IEEE MeditCom 2024 in Madrid, Spain.
-- **[Jun. 2024]** Paper "WirelessLLM: Empowering Large Language Models Towards Wireless Intelligence" accepted by Jounal of Communications and Information Networks. [Paper](https://ieeexplore.ieee.org/document/10582827)
-- **[May. 2024]** Paper "Model-driven Deep Learning for Distributed Detection in WSNs with Binary Quantization" accepted by IEEE MeditCom 2024. [Paper](https://ieeexplore.ieee.org/abstract/document/10621336)
-- **[Sep. 2023]** I joined the Department at ECE at HKUST as Postdoctoral Fellow.
+- **[09/2024]** Paper "WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks" submitted. [arxiv](https://arxiv.org/abs/2409.07964)
+- **[09/2024]** Poster presentation at [The IEEE Hong Kong 6G Wireless Summit (IEEE HK6GWS 2024)](https://hk6gws2024.ieee-hk6gws.org/).
+- **[07/2024]** Oral presentation at IEEE MeditCom 2024 in Madrid, Spain.
+- **[06/2024]** Paper "WirelessLLM: Empowering Large Language Models Towards Wireless Intelligence" accepted by Jounal of Communications and Information Networks. [Paper](https://ieeexplore.ieee.org/document/10582827)
+- **[05/2024]** Paper "Model-driven Deep Learning for Distributed Detection in WSNs with Binary Quantization" accepted by IEEE MeditCom 2024. [Paper](https://ieeexplore.ieee.org/abstract/document/10621336)
+- **[09/2023]** I joined the Department at ECE at HKUST as Postdoctoral Fellow.
 
 
 {% include_relative _includes/publications.md %}
@@ -29,8 +29,8 @@ I am a Postdoctoral Fellow with the [Department of Electronic and Computer Engin
 6. IEEE Internet of Things Magazine; 
 7. IEEE Journal on Selected Areas in Information Theory; 
 8. China Communications; 
-9. Journal of Communications and Information Networks;\
--- ...
+9. Journal of Communications and Information Networks;
+10. And more...
 
 - Conference Reviewers
 1. IEEE Global Communications Conference (Globecom), 2019-2024; 
