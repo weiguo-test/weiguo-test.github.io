@@ -17,25 +17,3 @@ I am a Postdoctoral Fellow with the [Department of Electronic and Computer Engin
 
 
 {% include_relative _includes/publications.md %}
-
-## Academic Services
-
-- Journal Reviewers
-1. IEEE Transactions on Wireless Communications; 
-2. IEEE Transactions on Communications; 
-3. IEEE Wireless Communications Letters; 
-4. IEEE Systems Journal; 
-5. IEEE Transactions on Machine Learning in Communications and Networking; 
-6. IEEE Internet of Things Magazine; 
-7. IEEE Journal on Selected Areas in Information Theory; 
-8. China Communications; 
-9. Journal of Communications and Information Networks;
-10. And more...
-
-- Conference Reviewers
-1. IEEE Global Communications Conference (Globecom), 2019-2024; 
-2. IEEE/CIC International Conference on Communications in China (ICCC), 2019-2024.
-3. IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2024.
-
-## Awards
-- Exemplary Reviewer of IEEE Wireless Communications Letters (2020)

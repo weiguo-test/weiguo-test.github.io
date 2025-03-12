@@ -3,27 +3,42 @@ layout: homepage
 title: Research
 ---
 
-## Research Interests
+## Publications [\Google Scholar\](https://scholar.google.com/citations?user=4dFwT-4AAAAJ)
 
-My research interests include:
+### Journal Papers
 
-- Wireless communications and networks
-- Signal processing for communications
-- Machine learning for wireless
-- Edge computing and IoT systems
+1. W. Guo, "WirelessLLM: Empowering Large Language Models Towards Wireless Intelligence," *Journal of Communications and Information Networks*, 2024. [\[Paper\]](https://ieeexplore.ieee.org/document/10582827)
 
-## Current Projects
+2. W. Guo, "Model-driven Deep Learning for Distributed Detection in WSNs with Binary Quantization," *IEEE MeditCom*, 2024. [\[Paper\]](https://ieeexplore.ieee.org/abstract/document/10621336)
 
-### Project 1: Intelligent Wireless Networks with LLMs
+### Preprints
 
-Exploring how large language models can be used to enhance the performance and capabilities of wireless networks, focusing on resource allocation, network optimization, and autonomous decision-making.
+1. W. Guo, "WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks," 2024. [\[arxiv\]](https://arxiv.org/abs/2409.07964)
 
-### Project 2: Edge AI for IoT Systems
+### Conference Papers
 
-Investigating efficient deployment of AI models at the network edge to enable low-latency, privacy-preserving intelligence for Internet of Things (IoT) devices and applications.
+1. W. Guo, "Poster: Towards Intelligent Wireless Networks," *The IEEE Hong Kong 6G Wireless Summit (IEEE HK6GWS)*, 2024.
 
-## Past Projects
+2. W. Guo, "Oral: Model-driven Deep Learning for Distributed Detection," *IEEE MeditCom*, Madrid, Spain, 2024.
 
-### Project: Deep Learning for Wireless Sensor Networks
+## Academic Services
 
-Developed model-driven deep learning approaches for distributed detection in wireless sensor networks with binary quantization, improving detection performance while maintaining low communication overhead. 
+- Journal Reviewers
+1. IEEE Transactions on Wireless Communications; 
+2. IEEE Transactions on Communications; 
+3. IEEE Wireless Communications Letters; 
+4. IEEE Systems Journal; 
+5. IEEE Transactions on Machine Learning in Communications and Networking; 
+6. IEEE Internet of Things Magazine; 
+7. IEEE Journal on Selected Areas in Information Theory; 
+8. China Communications; 
+9. Journal of Communications and Information Networks;
+10. And more...
+
+- Conference Reviewers
+1. IEEE Global Communications Conference (Globecom), 2019-2024; 
+2. IEEE/CIC International Conference on Communications in China (ICCC), 2019-2024.
+3. IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2024.
+
+## Awards
+- Exemplary Reviewer of IEEE Wireless Communications Letters (2020)

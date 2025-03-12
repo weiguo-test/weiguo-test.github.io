@@ -183,3 +183,16 @@ Our project uses the source code from the following repositories:
 * [orderedlist/minimal](https://github.com/orderedlist/minimal)
 
 * [al-folio](https://github.com/alshedivat/al-folio)
+
+如何使用和修改导航栏：
+添加新页面：
+创建新的Markdown文件（例如：new-page.md）
+在文件头部添加YAML前置信息（layout和title）
+在_data/navigation.yml中添加新的导航项
+删除页面：
+只需从_data/navigation.yml中删除对应的导航项即可
+可以选择性地删除对应的页面文件
+修改导航顺序：
+只需在_data/navigation.yml中调整导航项的顺序
+修改导航样式：
+编辑assets/css/navigation.css文件以更改导航栏的外观

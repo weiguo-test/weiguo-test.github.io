@@ -5,11 +5,5 @@
 main:
   - name: Home
     url: /
-  - name: Research
-    url: /research.html
   - name: Publications
     url: /publications.html
-  - name: CV
-    url: /cv.html
-  - name: Contact
-    url: /contact.html 
