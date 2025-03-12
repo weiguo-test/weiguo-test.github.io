@@ -19,7 +19,7 @@
   box-sizing: border-box;
   max-width: 1200px;
   margin: 0 auto;
-  height: 50px;
+  height: 50px; /* 桌面版高度 */
 }
 
 .nav-logo {
@@ -66,19 +66,19 @@
   color: #000;
 }
 
-/* 汉堡菜单按钮 */
+/* 汉堡菜单按钮 - 尺寸缩小 */
 .nav-toggle {
   display: none;
   cursor: pointer;
-  width: 24px;
-  height: 20px;
+  width: 20px; /* 默认宽度 */
+  height: 18px; /* 默认高度 */
   position: relative;
   z-index: 1001;
 }
 
 .nav-toggle span {
   display: block;
-  height: 2px;
+  height: 2px; /* 线条高度 */
   width: 100%;
   background-color: #333;
   position: absolute;
@@ -91,16 +91,16 @@
 }
 
 .nav-toggle span:nth-child(2) {
-  top: 9px;
+  top: 8px; /* 调整间距 */
 }
 
 .nav-toggle span:nth-child(3) {
-  top: 18px;
+  top: 16px; /* 调整间距 */
 }
 
 .nav-toggle.active span:nth-child(1) {
   transform: rotate(45deg);
-  top: 9px;
+  top: 8px; /* 调整以匹配中间线位置 */
 }
 
 .nav-toggle.active span:nth-child(2) {
@@ -109,12 +109,12 @@
 
 .nav-toggle.active span:nth-child(3) {
   transform: rotate(-45deg);
-  top: 9px;
+  top: 8px; /* 调整以匹配中间线位置 */
 }
 
 /* 添加页面内容的上边距，为固定导航栏腾出空间 */
 .wrapper {
-  padding-top: 50px !important;
+  padding-top: 50px !important; /* 与导航栏高度一致 */
 }
 
 /* 夜间模式样式 */
@@ -150,17 +150,40 @@
 /* 响应式设计 - 移动设备 */
 @media screen and (max-width: 768px) {
   .nav-container {
-    padding: 0 15px;
+    padding: 0 12px;
+    height: 40px; /* 移动端更小的高度 */
   }
   
   .nav-toggle {
     display: block;
+    width: 18px; /* 移动端更小的宽度 */
+    height: 14px; /* 移动端更小的高度 */
+  }
+  
+  .nav-toggle span:nth-child(1) {
+    top: 0;
+  }
+  
+  .nav-toggle span:nth-child(2) {
+    top: 6px; /* 调整移动端间距 */
+  }
+  
+  .nav-toggle span:nth-child(3) {
+    top: 12px; /* 调整移动端间距 */
+  }
+  
+  .nav-toggle.active span:nth-child(1) {
+    top: 6px; /* 调整移动端激活状态 */
+  }
+  
+  .nav-toggle.active span:nth-child(3) {
+    top: 6px; /* 调整移动端激活状态 */
   }
   
   .nav-links {
     flex-direction: column;
     position: absolute;
-    top: 50px;
+    top: 40px; /* 与移动端导航栏高度一致 */
     left: 0;
     width: 100%;
     background-color: #f8f8f8;
@@ -182,9 +205,14 @@
   }
   
   .nav-link {
-    padding: 15px 20px;
+    padding: 12px 15px; /* 减少内边距 */
     width: 100%;
     box-sizing: border-box;
+    font-size: 0.95rem; /* 稍微缩小字体 */
+  }
+  
+  .wrapper {
+    padding-top: 40px !important; /* 与移动端导航栏高度一致 */
   }
   
   @media (prefers-color-scheme: dark) {
