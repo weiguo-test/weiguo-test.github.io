@@ -1,15 +1,20 @@
 /* 导航栏样式 */
 .site-nav {
   width: 100%;
-  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin-bottom: 0;
 }
 
 .nav-container {
   display: flex;
   justify-content: center;
   background-color: #f8f8f8;
-  border-radius: 5px;
-  padding: 5px 0;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
 
 .nav-links {
@@ -19,6 +24,8 @@
   margin: 0;
   padding: 0;
   justify-content: center;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .nav-item {
@@ -28,7 +35,7 @@
 
 .nav-link {
   display: block;
-  padding: 10px 15px;
+  padding: 10px 20px;
   text-decoration: none;
   color: #333;
   font-weight: 500;
@@ -46,10 +53,16 @@
   color: #000;
 }
 
+/* 添加页面内容的上边距，为固定导航栏腾出空间 */
+.wrapper {
+  padding-top: 60px !important;
+}
+
 /* 夜间模式样式 */
 @media (prefers-color-scheme: dark) {
   .nav-container {
     background-color: #2a2a2a;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
   .nav-link {

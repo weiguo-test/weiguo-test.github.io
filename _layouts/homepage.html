@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }} | {{site.affiliation}}</title>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,6 +38,9 @@
 
   </head>
   <body>
+    <!-- 导航栏放在页面最顶部 -->
+    {% include navigation.html %}
+    
     <div class="wrapper">
       <header>
         
@@ -96,7 +99,6 @@
 
       </header>
       <section>
-        {% include navigation.html %}
 
       {{ content }}
 

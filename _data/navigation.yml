@@ -6,10 +6,10 @@ main:
   - name: Home
     url: /
   - name: Research
-    url: /research/
+    url: /research.html
   - name: Publications
-    url: /publications/
+    url: /publications.html
   - name: CV
-    url: /cv/
+    url: /cv.html
   - name: Contact
-    url: /contact/ 
+    url: /contact.html 
