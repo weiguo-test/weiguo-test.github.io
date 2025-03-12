@@ -10,22 +10,34 @@
 
 .nav-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   background-color: #f8f8f8;
-  padding: 10px 0;
+  padding: 0 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 100%;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.nav-logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  color: #333;
 }
 
 .nav-links {
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
-  max-width: 1200px;
-  width: 100%;
+  align-items: center;
 }
 
 .nav-item {
@@ -53,6 +65,52 @@
   color: #000;
 }
 
+/* 汉堡菜单按钮 */
+.nav-toggle {
+  display: none;
+  cursor: pointer;
+  width: 30px;
+  height: 24px;
+  position: relative;
+  z-index: 1001;
+}
+
+.nav-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-toggle span:nth-child(1) {
+  top: 0;
+}
+
+.nav-toggle span:nth-child(2) {
+  top: 10px;
+}
+
+.nav-toggle span:nth-child(3) {
+  top: 20px;
+}
+
+.nav-toggle.active span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.nav-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+
 /* 添加页面内容的上边距，为固定导航栏腾出空间 */
 .wrapper {
   padding-top: 60px !important;
@@ -63,6 +121,10 @@
   .nav-container {
     background-color: #2a2a2a;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-logo a {
+    color: #ddd;
   }
   
   .nav-link {
@@ -78,18 +140,59 @@
     background-color: #3a3a3a;
     color: #fff;
   }
+  
+  .nav-toggle span {
+    background-color: #ddd;
+  }
 }
 
-/* 响应式设计 */
-@media screen and (max-width: 600px) {
+/* 响应式设计 - 移动设备 */
+@media screen and (max-width: 768px) {
+  .nav-container {
+    padding: 0 15px;
+  }
+  
+  .nav-toggle {
+    display: block;
+  }
+  
   .nav-links {
     flex-direction: column;
-    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    z-index: 1000;
+  }
+  
+  .nav-links.show {
+    max-height: 500px;
+  }
+  
+  .nav-item {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
   
   .nav-link {
-    padding: 8px 12px;
-    text-align: center;
+    padding: 15px 20px;
     width: 100%;
+    box-sizing: border-box;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .nav-links {
+      background-color: #2a2a2a;
+    }
+    
+    .nav-item {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
   }
 } 
